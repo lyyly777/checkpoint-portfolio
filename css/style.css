@@ -1,13 +1,15 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 body {
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-size: 20px;
   background-color: rgb(31, 30, 30);
 }
 h2 {
+  font-weight: 700;
   text-align: center;
   font-size: 80px;
   font-style: oblique;
@@ -64,19 +66,32 @@ ol > li {
   padding: 0px;
   margin: 40px;
 }
-#contact > div {
+#contact form {
   text-align: center;
-  color: black;
-  border: 1px solid rgb(201, 201, 201);
-  background-color: #fff;
+  color: rgb(226, 218, 218);
+  padding: 10px;
+  border: 1px solid rgb(222, 213, 223);
+  width: 300px;
+  background-color: #444343;
   border-radius: 5px;
-  box-shadow: 3px 5px 5px rgb(197, 197, 197);
+  box-shadow: 3px 5px 5px rgb(252, 243, 243);
 }
-section > div {
-  border: 20px;
-  padding: 20px;
-  color: white;
+#contact label,
+#contact input,
+#contact textarea {
+  display: block;
+  width: 100%;
 }
+#information {
+  text-align: center;
+  color: rgb(226, 218, 218);
+  padding: 10px;
+  border: 1px solid rgb(222, 213, 223);
+  width: 300px;
+  background-color: #444343;
+  box-shadow: 3px 5px 5px rgb(252, 243, 243);
+}
+
 footer {
   padding: 10px;
   text-align: center;
